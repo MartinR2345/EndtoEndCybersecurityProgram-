@@ -1,15 +1,15 @@
-<h1>Mini Compliance Program</h1>
+<h1>End-To-End Cybersecurity Program</h1>
 
 <h2>Video Demonstration</h2>
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I built a mini compliance program by selecting a framework (ISO 27001 Annex A) and creating a fictional healthcare clinic called SaveRecords that stores electronic patient records.
+This repository demonstrates how I design an end-to-end cybersecurity program for an entire organization. This project or scenerio is for an imaginary organization and the problems this organization has is very real.
 <br />
 
 <h2>Framework Used</h2>
 
-<ul> <li>ISO 27001 Annex A</li>
+<ul> <li>NIST</li>
 
 </ul>
 
@@ -17,6 +17,7 @@ This repository demonstrates how I built a mini compliance program by selecting 
 
 <ul>
   <li>Choose a fictional company (for example, a SaaS startup or healthcare clinic) and define its scope: assets, systems, users, and data types.</li>
+ <li>Choose and use an industry framework (NIST cybersecurity framework) as reference</li>
   <li>Download the ISO 27001 Annex A control list or NIST 800-53 catalog to use as your baseline requirements.</li>
   <li>Create a spreadsheet with columns such as Control ID, Requirement, Current Status, Owner, and Needed Actions.</li>
  <li>Select at least 15–20 controls that apply to your environment and document whether they are implemented, partially implemented, or missing.</li>
