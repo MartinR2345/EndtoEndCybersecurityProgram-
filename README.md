@@ -16,10 +16,9 @@ This repository demonstrates how I design an end-to-end cybersecurity program fo
 <h2>Task To Complete</h2>
 
 <ul>
-  <li>Choose a fictional company (for example, a SaaS startup or healthcare clinic) and define its scope: assets, systems, users, and data types.</li>
+ <li>Choose a fictional company (for example, a SaaS startup or healthcare clinic) and define its scope: assets, systems, users, and data types.</li>
  <li>Choose and use an industry framework (NIST cybersecurity framework) as reference</li>
-  <li>Download the ISO 27001 Annex A control list or NIST 800-53 catalog to use as your baseline requirements.</li>
-  <li>Create a spreadsheet with columns such as Control ID, Requirement, Current Status, Owner, and Needed Actions.</li>
+ <li>Create a spreadsheet with columns such as Control ID, Requirement, Current Status, Owner, and Needed Actions.</li>
  <li>Select at least 15–20 controls that apply to your environment and document whether they are implemented, partially implemented, or missing.</li>
  <li>Write a brief one-page “Compliance Program Overview” describing your chosen scope, goals, and current level of maturity.</li>
  <li>Highlight 3–5 gaps and propose realistic remediation steps that an organization could take to improve compliance readiness.</li>
