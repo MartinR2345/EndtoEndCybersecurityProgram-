@@ -4,25 +4,21 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I design an end-to-end cybersecurity program for an entire organization. This project or scenerio is for an imaginary organization and the problems this organization has is very real.
+This repository demonstrates how I conducted a full cybersecurity program assessment for a fictional company (AI Driven) using the the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
 
-<ul> <li>NIST</li>
+<ul> <li>NIST Cybersecurity Framework</li>
 
 </ul>
 
 <h2>Task To Complete</h2>
 
 <ul>
- <li>Choose a fictional company (for example, a SaaS startup or healthcare clinic) and define its scope: assets, systems, users, and data types.</li>
- <li>Choose and use an industry framework (NIST cybersecurity framework) as reference</li>
- <li>Create a spreadsheet with columns such as Control ID, Requirement, Current Status, Owner, and Needed Actions.</li>
- <li>Select at least 15–20 controls that apply to your environment and document whether they are implemented, partially implemented, or missing.</li>
- <li>Write a brief one-page “Compliance Program Overview” describing your chosen scope, goals, and current level of maturity.</li>
- <li>Highlight 3–5 gaps and propose realistic remediation steps that an organization could take to improve compliance readiness.</li>
- <li>Store all evidence (matrix, notes, document drafts) as part of your growing portfolio.</li>
+ <li>Act as a cybersecurity consultant hired by AI Driven (fictitious company) to assess their cybersecurity posture and design a full cybersecurity program.</li>
+ <li>Use the AI Driven current-state PDF and the NIST assessment spreadsheet as your primary project artifacrts.</li>
+ <li>Align the entire project to the NIST Cybersecurity Framework</li>
 </ul>
 
 <h2>Program walk-through:</h2>
