@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful parnter AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful collaborator AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is To transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
@@ -26,13 +26,13 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 <p align="center">
   <strong>Phase One: Define The Fictional Organization</strong> <br/>
 
- I needed a clear story for this fictitious company so first, I thought about stuff that I was interested right now. What came to mind was AI so with the help of my thoughful colloborator AI (ChatGPT), we came up with a fictitious company called AI Driven. 
+ I needed a clear story for this fictitious company so first, I thought about stuff that I was interested right now. What came to mind was AI so with the help of my thoughful collaborator AI (ChatGPT), we came up with a fictitious company called AI Driven. 
   <ul>
   <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup  founded in New York City. The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. The IT and security team is resource-constrained and lacks formal cybersecurity specialization. </li>
  </ul>
      
 <p align="center">
- <strong>Phase Two: Define Assets, Systems, Users & Data Types with ChatGPT Assistance</strong> <br/>
+ <strong>Phase Two: </strong> <br/>
 
  Once I created the compliance enviroment story, I ask ChatGPT to list the assets, systems, users, and data types that fits to this compliance environment story. 
  <ul>
