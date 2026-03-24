@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment for a fictional company (AI Driven) using the the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted a full cybersecurity program assessment for a fictional company called AI Driven using the the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
@@ -17,8 +17,8 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 
 <ul>
  <li>Act as a cybersecurity consultant hired by AI Driven (fictitious company) to assess their cybersecurity posture and design a full cybersecurity program.</li>
- <li>Use the AI Driven current-state PDF and the NIST assessment spreadsheet as your primary project artifacrts.</li>
- <li>Align the entire project to the NIST Cybersecurity Framework</li>
+ <li>Use the <b>AI Driven current-state PDF</b> and <b>the NIST assessment spreadsheet</b> as your primary project artifacrts.</li>
+ <li>Align the entire project to the NIST Cybersecurity Framework.</li>
 </ul>
 
 <h2>Program walk-through:</h2>
