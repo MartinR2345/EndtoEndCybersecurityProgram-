@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful parnter AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
