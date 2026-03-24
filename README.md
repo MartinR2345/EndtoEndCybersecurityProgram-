@@ -26,11 +26,22 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 <p align="center">
   <strong>Phase One: Define The Fictional Organization</strong> <br/>
 
- I needed a clear story for the compliance environment so first, I identify from personal experience of the type of jobs I worked. Healthcare came to mind. Healthcare is naturally high compliance relevance (HIPAA, ISO 27001, etc). With healthcare comes electronic records and data types like PII and PHI. 
+ I needed a clear story for this fictitious company so first, I thought about stuff that I was interested right now. What came to mind was AI so with the help of my thoughful colloborator AI (ChatGPT), we came up with a fictitious company called AI Driven. 
   <ul>
-  <li><strong>Compliance Environment Story:</strong> A healthcare clinic called SaveRecords that stores electronic patient records and protects confidential data (PII/PHI)</li>
+  <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup  founded in New York City. The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. The IT and security team is resource-constrained and lacks formal cybersecurity specialization. </li>
  </ul>
      
+<p align="center">
+ <strong>Phase Two: Define Assets, Systems, Users & Data Types with ChatGPT Assistance</strong> <br/>
+
+ Once I created the compliance enviroment story, I ask ChatGPT to list the assets, systems, users, and data types that fits to this compliance environment story. 
+ <ul>
+  <li><strong>Assets:</strong> EMR application (custom web app), Cloud database (AWS), Staff laptops/workstations, Internet routers/firewalls, Patient data repository (contains PII and PHI)</li>
+  <li><strong>Systems:</strong> AWS (hosting and data storage), EMR platform (used by staff), Internal email and file-sharing tools</li>
+  <li><strong>Users:</strong> Doctors, Admin Staff, Nurses, IT Support</li>
+  <li><strong>Data Types:</strong> Personally Identifiable Information (PII), Protected Health Information (PHI)</li>
+ </ul>
+ 
 <p align="center">
  <strong>Phase Two: Define Assets, Systems, Users & Data Types with ChatGPT Assistance</strong> <br/>
 
