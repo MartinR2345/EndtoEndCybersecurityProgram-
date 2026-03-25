@@ -57,17 +57,6 @@ This is where I imagine having an interview with AI Driven (the fictitious compa
    <b><li>High risk</li></b>
   </ul>
 
-with ChatGPT Assistance
- Once the story is form,  I ask ChatGPT to list the assets, systems, users, and data types that fits to this compliance environment story. 
- <ul>
-  <li><strong>Assets:</strong> EMR application (custom web app), Cloud database (AWS), Staff laptops/workstations, Internet routers/firewalls, Patient data repository (contains PII and PHI)</li>
-  <li><strong>Systems:</strong> AWS (hosting and data storage), EMR platform (used by staff), Internal email and file-sharing tools</li>
-  <li><strong>Users:</strong> Doctors, Admin Staff, Nurses, IT Support</li>
-  <li><strong>Data Types:</strong> Personally Identifiable Information (PII), Protected Health Information (PHI)</li>
- </ul>
-
-This gives me a nice scoping statement I can plug into my ISO 27001 documents later.  It defines what's in scope (systems, assets, data) and who interacts with them.
-
 <p align="center">
  <strong>Phase Three: Write out the Scope Summary </strong> <br/>
 
