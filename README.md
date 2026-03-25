@@ -42,18 +42,22 @@ This repository demonstrates how I conducted a full cybersecurity program assess
    <li>Environment: Technology</li>
   </ul>
 
-   <p>Right now, <b>AI Drriven</b> is:</p>
-  <ul>
-   <b><li>Reactive</li></b>
-   <li>Disorganized</li>
-   <li>Full of security gaps</li>
-   <li>Lacking governance</li>
-   <li>High risk</li>
-  </ul>
      
 <p align="center">
- <strong>Phase Two: Define Assets, Systems, Users & Data Types with ChatGPT Assistance</strong> <br/>
+ <strong>Phase Two: Define the Current State of AI Driven Cybersecurity Posture</strong> <br/>
 
+This is where I imagine having an interview with AI Driven (the fictitious company) and basically define the current state of it's cybersecurity posture right now.  the Assets, Systems, Users & Data Types of this fictitious company.
+
+   <p>Right now, <b>AI Driven</b> is:</p>
+  <ul>
+   <b><li>Reactive</li></b>
+   <b><li>Disorganized</li></b>
+   <b><li>Full of security gaps</li></b>
+   <b><li>Lacking governance</li></b>
+   <b><li>High risk</li></b>
+  </ul>
+
+with ChatGPT Assistance
  Once the story is form,  I ask ChatGPT to list the assets, systems, users, and data types that fits to this compliance environment story. 
  <ul>
   <li><strong>Assets:</strong> EMR application (custom web app), Cloud database (AWS), Staff laptops/workstations, Internet routers/firewalls, Patient data repository (contains PII and PHI)</li>
