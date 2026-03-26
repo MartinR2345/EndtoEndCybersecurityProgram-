@@ -56,7 +56,7 @@ With a growing team of technologists, researchers, and IT professionals, AI Driv
 <p align="center">
  <strong>Phase Two: Define the Current State of AI Driven Cybersecurity Posture</strong> <br/>
 
-This is where I imagine having an interview with AI Driven (the fictitious company), basically defining the current state of it's cybersecurity posture.  The scope of my assessment included:
+This is where I imagine having an interview with AI Driven (the fictitious company). I needed to understand the scope of my assessment. The business itself such as:
 <ul>
  <li><b>Governance and Risk Management</b> (How does the organization make decisions, set policies, manage risks?)</li>
  <li><b>Asset Management</b> (What does the organization own and what needs protection?)</li>
@@ -68,6 +68,9 @@ This is where I imagine having an interview with AI Driven (the fictitious compa
  <li><b>Security Awareness</b> (How does the organization implement employee training on managing and identifying risks?)</li>
  <li><b>Third-party Risk Management</b> (How does the organization manages risks from vendors, partners, and suppliers?)</li>
 </ul>
+
+By asking questions, I was able to identify the Assets, Threats, Risks, and Controls.
+
 
 
 Look at the screenshots below:
