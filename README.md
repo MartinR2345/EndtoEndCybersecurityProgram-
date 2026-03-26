@@ -69,9 +69,12 @@ This is where I imagine having an interview with AI Driven (the fictitious compa
  <li><b>Third-party Risk Management</b> (How does the organization manages risks from vendors, partners, and suppliers?)</li>
 </ul>
 
-By asking questions, I was able to identify the Assets, Threats, Risks, and Controls.
+I also use chatGPT to give me questions as well. I use this prompt:
+What are the questions to ask when it comes to each control {Governance and Risk Management Asset Management Identity and Access Managment Vulnerability Management Network Security Data Protection Security Monitoring And Incident Response Security Awareness Third-party Risk Management}
 
+I attached the questions called "Practical Audit Ready Questions" to this github project. 
 
+By asking these questions, I was able to identify the Assets, Threats, Risks, and Controls.
 
 Look at the screenshots below:
 
