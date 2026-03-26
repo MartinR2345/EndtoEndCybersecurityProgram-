@@ -76,10 +76,27 @@ I attached the questions called "Practical Audit Ready Questions" to this github
 
 By asking these questions, I was able to identify the Assets, Threats, Risks, and Controls.
 
-Look at the screenshots below:
+I came up with some problems this organization could have. Look at the screenshots below:
 
+<p align="center">
+ <img src="https://i.imgur.com/A1116J4.png" height="80%" width="80%" alt="twentyControls"/>
+<br />
 
+<p align="center">
+ <img src="https://i.imgur.com/iQTCx1P.png" height="80%" width="80%" alt="twentyControls"/>
+<br />
 
+<p align="center">
+ <img src="https://i.imgur.com/xxl1ngm.png" height="80%" width="80%" alt="twentyControls"/>
+<br />
+
+<p align="center">
+ <img src="https://i.imgur.com/wcF16ji.png" height="80%" width="80%" alt="twentyControls"/>
+<br />
+
+<p align="center">
+ <img src="https://i.imgur.com/rjNIuES.png" height="80%" width="80%" alt="twentyControls"/>
+<br />
 
 
    <p>Right now, <b>AI Driven</b> is:</p>
