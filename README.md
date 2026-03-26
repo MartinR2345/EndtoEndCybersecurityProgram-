@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful collaborator AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is To transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful collaborator AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is to transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
@@ -26,22 +26,32 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 <p align="center">
   <strong>Phase One: Define The Fictional Organization</strong> <br/>
 
- I needed a clear story for this fictitious company so first, I thought about stuff that I was interested right now. What came to mind was AI and how its evolution seems to be progressing faster year after year so with the help of my thoughful collaborator AI (ChatGPT), we came up with a fictitious company called AI Driven. 
-  <ul>
-  <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup  founded in New York City. The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. The IT and security team is resource-constrained and lacks formal cybersecurity specialization. </li>
- </ul>
+ I needed a clear story for this fictitious company so first, I thought about stuff that I found interesting right now. What came to mind was AI and how its evolution seems to be progressing year after year.  I ask myself these three questions: <br>
  
- I wrote a short section describing the company.<br/>
+<b>1. What is the name of the organization?</b> Answer I came up with: AI Driven <br>
+<b>2. What is the mission this organization set out to do?</b> Answer I came up with: Improve and Influence content and communications <br>
+<b>3. What is the location or headquarters this organization reside?</b> Answer I came up with:  NYC
 
-  <strong><p>Company Overview</p></strong>
+ <b>Once I answer these questions, I ask my thoughful collaborator AI (ChatGPT):</b><br>
+You are a seasoned executive GRC compliance analyst with a proven track record of helping create fictitious companies overview for GRC projects. Take this information {1. What is the name of the organization? Answer I came up with: AI Driven
+2. What is the mission this organization set out to do? Answer I came up with: Improve and Influence content and communications
+3. What is the location or headquarters this organization reside? Answer I came up with:  NYC} and string along a company overview.
+
+<b>CHATGPT RESPONSE:</b><br>
+Company Overview — AI Driven
+
+AI Driven is a New York City–based technology startup focused on transforming the way organizations create, manage, and deliver content and communications. Headquartered in NYC, the company operates at the intersection of artificial intelligence and digital engagement, offering innovative solutions designed to enhance efficiency, personalization, and impact.
+
+The organization’s mission is to improve and influence content and communications by leveraging advanced AI technologies. Through its platforms, AI Driven enables businesses to streamline content creation, optimize messaging strategies, and deliver more meaningful, data-driven interactions with their audiences.
+
+AI Driven primarily serves enterprises seeking scalable, cloud-based solutions that modernize communication workflows and support real-time decision-making. By integrating intelligent automation and analytics, the company empowers clients to increase productivity, maintain consistency in messaging, and adapt quickly to evolving market demands.
+
+With a growing team of technologists, researchers, and IT professionals, AI Driven is committed to innovation, security, and operational excellence—positioning itself as a forward-thinking player in the AI-powered SaaS landscape.
+
+ <b>My short version I wrote:</b>
   <ul>
-   <li>Company name: AI Driven</li>
-   <li>Industry: AI SaaS</li>
-   <li>Headquarters Location: New York City</li>
-   <li>Size: 120 employees </li>
-   <li>Environment: Technology</li>
-  </ul>
-
+  <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup company. It was founded in New York City with a total of 120 employees. The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. The IT and security team is resource-constrained and lacks formal cybersecurity specialization. </li>
+ </ul>
      
 <p align="center">
  <strong>Phase Two: Define the Current State of AI Driven Cybersecurity Posture</strong> <br/>
