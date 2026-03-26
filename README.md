@@ -29,12 +29,12 @@ This repository demonstrates how I conducted a full cybersecurity program assess
  I needed a clear story for this fictitious company so first, I thought about stuff that I found interesting right now. What came to mind was AI and how its evolution seems to be progressing year after year.  I ask myself these three questions: <br>
  
 <b>1. What is the name of the organization?</b> Answer I came up with: AI Driven <br>
-<b>2. What is the mission this organization set out to do?</b> Answer I came up with: Improve and Influence content and communications <br>
+<b>2. What is the mission this organization set out to do?</b> Answer I came up with: Improve content and communications <br>
 <b>3. What is the location or headquarters this organization reside?</b> Answer I came up with:  NYC
 
  <b>Once I answer these questions, I ask my thoughful collaborator AI (ChatGPT):</b><br>
 You are a seasoned executive GRC compliance analyst with a proven track record of helping create fictitious companies overview for GRC projects. Take this information {1. What is the name of the organization? Answer I came up with: AI Driven
-2. What is the mission this organization set out to do? Answer I came up with: Improve and Influence content and communications
+2. What is the mission this organization set out to do? Answer I came up with: Improve content and communications
 3. What is the location or headquarters this organization reside? Answer I came up with:  NYC} and string along a company overview.
 
 <b>CHATGPT RESPONSE:</b><br>
@@ -50,13 +50,31 @@ With a growing team of technologists, researchers, and IT professionals, AI Driv
 
  <b>My short version I wrote:</b>
   <ul>
-  <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup company. It was founded in New York City with a total of 120 employees. The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. The IT and security team is resource-constrained and lacks formal cybersecurity specialization. </li>
+  <li><strong>AI Driven Story:</strong> AI Driven is a New York City–based technology startup company with a total of 120 employees.  The organization specializes in artificial intelligence–powered content and communications platforms. The company provides cloud-based SaaS solutions that enable enterprise clients to generate, analyze, and optimize digital content across marketing and communication channels. Its platform leverages proprietary machine learning models and processes large volumes of user and organizational data, making cybersecurity and data protection critical to business operations. </li>
  </ul>
      
 <p align="center">
  <strong>Phase Two: Define the Current State of AI Driven Cybersecurity Posture</strong> <br/>
 
-This is where I imagine having an interview with AI Driven (the fictitious company) and basically define the current state of it's cybersecurity posture right now.  the Assets, Systems, Users & Data Types of this fictitious company.
+This is where I imagine having an interview with AI Driven (the fictitious company), basically defining the current state of it's cybersecurity posture.  The scope of my assessment included:
+<ul>
+ <li><b>Governance and Risk Management</b> (How does the organization make decisions, set policies, manage risks?)</li>
+ <li><b>Asset Management</b> (What does the organization own and what needs protection?)</li>
+ <li><b>Identity and Access Management</b> (Who has access to what and under what conditions?)</li>
+ <li><b>Vulnerability Management</b> (What needs to be fixed in the organzations?)</li>
+ <li><b>Network Security</b> (How does the organization protect it's internal and external network infrastructure?)</li>
+ <li><b>Data Protection</b> (How does the organization keep their sensitive information safe and private?)</li>
+ <li><b>Security Monitoring And Incident Response</b> (How does the organization detect attacks and respond to attacks?)</li>
+ <li><b>Security Awareness</b> (How does the organization implement employee training on managing and identifying risks?)</li>
+ <li><b>Third-party Risk Management</b> (How does the organization manages risks from vendors, partners, and suppliers?)</li>
+</ul>
+
+
+Look at the screenshots below:
+
+
+
+
 
    <p>Right now, <b>AI Driven</b> is:</p>
   <ul>
