@@ -56,7 +56,7 @@ With a growing team of technologists, researchers, and IT professionals, AI Driv
 <p align="center">
  <strong>Phase Two: Define the Current State of AI Driven Cybersecurity Posture</strong> <br/>
 
-This is where I imagine having an interview with AI Driven (the fictitious company). I needed to understand the scope of my assessment. The business itself such as:
+This is where I imagine having an interview with AI Driven (the fictitious company). I needed to understand the business so I looked carefully at: 
 <ul>
  <li><b>Governance and Risk Management</b> (How does the organization make decisions, set policies, manage risks?)</li>
  <li><b>Asset Management</b> (What does the organization own and what needs protection?)</li>
@@ -69,12 +69,33 @@ This is where I imagine having an interview with AI Driven (the fictitious compa
  <li><b>Third-party Risk Management</b> (How does the organization manages risks from vendors, partners, and suppliers?)</li>
 </ul>
 
-I also use chatGPT to give me questions as well. I use this prompt:
-What are the questions to ask when it comes to each control {Governance and Risk Management Asset Management Identity and Access Managment Vulnerability Management Network Security Data Protection Security Monitoring And Incident Response Security Awareness Third-party Risk Management}
+I also use chatGPT to give me questions as well. I use this prompt: <br>
+<i>What are the questions to ask when it comes to each control {Governance and Risk Management Asset Management Identity and Access Managment Vulnerability Management Network Security Data Protection Security Monitoring And Incident Response Security Awareness Third-party Risk Management}</i>
 
 I attached the questions called "Practical Audit Ready Questions" to this github project. 
 
 By asking these questions, I was able to identify the Assets, Threats, Risks, and Controls.
+
+For example, the Assets AI Driven could possible have would be: <br>
+<ul>
+ <li><b>Information Assets</b> -  customer data (PII, business data), communication data (emails, chats, logs) or intellectual property (algorithms, code) <br></li>
+ <li><b>Cloud & Infrastructure</b> - Microsoft Azure environment (since it is cloud-based), cloud storage (databases, blobs) <br></li>
+ <li><b>Hardware - employee laptops, research workstations </b></li>
+ <li><b>People</b> employees, IT staff, executives, contractors-</li>
+ <li><b>Applications</b> - SaaS platforms (such as Office365, collaboration tools), AI platform (core product)</li>
+ <li><b>Third-Party Services</b> - Cloud providers (Azure), External APIs, Vendors with data access </li>
+ <li><b>Physical Assets</b> - Office locations, research labs, server rooms, access badges and entry systems</li>
+ <li><b>Business Processes</b> - AI model development lifecycle, Customer onboarding</li>
+</ul>
+
+I ask myself this one question: <br>
+<b>"What would hurt the business the most if compromised?"</b><br>
+
+For AI Driven, the top 3 I chose was: <br>
+<b>1. Customer & communications data</b><br>
+<b>2. Proprietary AI models</b><br>
+<b>3. Cloud infrastructure (Azure)</b><br>
+
 
 I came up with some problems this organization could have. Look at the screenshots below:
 
