@@ -36,21 +36,36 @@ This repository demonstrates how I conducted a full cybersecurity program assess
   <img src="https://i.imgur.com/Uh3mIGu.png" height="80%" width="80%" alt="SaveRecords"/></li>
  </ul>
 
+ <strong>Why This Step Was Important</strong><br>
+This creates the organizational context, operational environment, business risk profile and compliance landscape. The objective is to understand the business.
+
 <p align="center">
- <strong>Step Two: Identify Assets, Systems, Users & Data Types</strong> <br/>
+ <strong>Step Two: Define Systems, Users, Devices & Sensitive Data </strong> <br/>
 
- From there, I define the full compliance scope including:
+The current “Systems” (within scope) for AI Driven are:
+<ol>
+ <li><strong>AWS cloud infrastructure</strong> - This connects to web application, database, backups and hosts the fintech platform and cloud services </li>
+ <li><strong>Payment Processing Web Application</strong> - This connects to customers, APIs, databases and basically customer-facing payment portal </li>
+ <li><strong>Transaction Database</strong> - This stores PCI payment data and transaction history </li>
+ <li><strong>Employee Endpoint Devices</strong> - This is used by employees, administrators and developers for daily operations</li>
+ <li><strong>Email & Collaboration Systems </strong> - This is for internal communication and business operations</li>
+ <li><strong>Backup & Recovery Systems</strong> - This supports disaster recovery and business continuity.</li>
+</ol>
 
-<strong>Assets & Systems</strong>
- <ul>
-  <li>EMR Systems (EMR Application & Platform)<img src="https://i.imgur.com/bGSYZMf.png" height="80%" width="80%" alt="SaveRecords"/></li>
-  <li>Cloud Database:<br/><img src="https://i.imgur.com/NTzHrhE.png" height="80%" width="80%" alt="SaveRecords"/></li>
-   <li>Staff Laptops<br/><img src="https://i.imgur.com/79JdHm3.png" height="80%" width="80%" alt="SaveRecords"/></li>
-   <li>Staff Email</li>
-   <li>Servers</li>
-   <li>Network Devices</li>
-   <li>Security Cameras</li>
- </ul>
+I chose these systems because all these systems allow AI Driven to process payments, store transaction data, support customers, communicate internally and maintain business operations. This is everything the company uses to run its business operations.
+
+The current “Users” (users interacting with the environment) in Scope for AI Driven are:
+<ol>
+ <li><strong>Employees</strong> - The primary role is to handle daily business operations. </li>
+ <li><strong>Developers</strong> - The primary role is to build and maintain applications. </li>
+ <li><strong>IT Administrators</strong> - The primary role is to manage cloud and infrastructure and systems </li>
+ <li><strong>Customers</strong> - The primary role is to use payment platform services. </li>
+</ol>
+Employees - The primary role is to handle daily business operations
+Developers - The primary role is to build and maintain applications
+IT Administrators - The primary role is to manage cloud and infrastructure and systems 
+Customers - The primary role is to use payment platform services.
+
 
 
 
