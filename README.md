@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment (with the help of my thoughtful collaborator AI) for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is to transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted a full cybersecurity program assessment for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is to transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
 <br />
 
 <h2>Framework Used</h2>
@@ -16,9 +16,15 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 <h2>Task To Complete</h2>
 
 <ul>
- <li>Act as a cybersecurity consultant hired by AI Driven (fictitious company) to assess their cybersecurity posture and design a full cybersecurity program.</li>
- <li>Use the <b>AI Driven current-state PDF</b> and <b>the NIST assessment spreadsheet</b> as your primary project artifacrts.</li>
- <li>Align the entire project to the NIST Cybersecurity Framework.</li>
+ <li>Define the Fictional Company & Business Environment</li>
+ <li>Define Systems, Users, Devices & Sensitive Data </li>
+ <li>Identify Critical Business Assets</li>
+ <li>Identify Threats, Vulnerabilities, Risk Scenarios </li>
+ <li>Perform The Risk Assessment & Create Risk Register Table</li>
+ <li>Identify Existing Security Controls</li>
+ <li>Conduct the Current State Cybersecurity Assessment (Baseline Assessment)</li>
+ <li>Perform the NIST CSF Control Assessment (PASS / FAIL)</li>
+ <li>Develop a Risk-Based Cybersecurity Improvement Plan</li>
 </ul>
 
 <h2>Program walk-through:</h2>
