@@ -168,31 +168,83 @@ The objective for this step is to determine what can go wrong for this organizat
   <img src="https://i.imgur.com/gYxr9Ip.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
+I performed a risk assessment that measures risk using likelihood and impact scores to determine how severe a risk is depending on where the risk score lands on the rating scale. This allows me to evaluate how serious the identified cybersecurity risks are and how much damage it could cause to this fintech payment-processing environment. </br>
+
+I document the results in the risk register (spreadsheet) below. This spreadsheet highlights the assessed risks, threats, vulnerabilities, risk scenarios, likelihood, impact score, the overall risk score and risk level. 
+
+<p align="center">
+  <img src="https://i.imgur.com/0zSZO1q.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
  <strong>Why This Step Was Important</strong><br>
-The objective for this step is to measure risk.
+The objective for this step is to assess risk or analyze risk by identifying, evaluating, and tracking potential threats and opportunities for this fictional organization.
 
 <p align="center">
  <strong>Step Six: Identify Existing Security Controls </strong> <br/>
 
+I identify the existing security controls to highlight the current safeguards already protecting the environment.
+The question I asked myself: </br>
 
- <strong>Why This Step Was Important</strong><br>
-The objective for this step is to document all cybersecurity controls that currently exist.
+“What is AI Driven currently doing to reduce those vulnerabilities?”</br>
 
+The first thing I did was review my vulnerabilities from Step 4 and give it context/meaning in the spreadsheet below: 
 <p align="center">
-  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/3hXTLgl.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
+
+I wrote out the existing controls below:
+
+<strong>Existing Controls</strong>
+<strong>MFA (partial adoption)</strong> - AI Driven currently uses multi-factor authentication on some employee and administrative accounts to provide an additional layer of login security and reduce unauthorized access risks.. This helps AI Driven add an extra layer of login security to reduce unauthorized access if passwords are stolen. This greatly reduces account compromise and unauthorized access.
+
+<strong>AWS IAM </strong> - AI Driven uses AWS IAM to manage user permissions and restrict access to cloud systems and sensitive resources based on user roles. This helps AI Driven control user permissions and limit access to AWS systems and sensitive cloud resources based on user roles and responsibilities. 
+
+<strong>Endpoint protection or Antivirus</strong> - AI Driven currently performs basic logging and monitoring activities to help identify suspicious system activity and support incident investigations. This helps AI Driven detect and block malware, ransomware and malicious files on employee laptops
+
+<strong>Basic logging & Monitoring</strong> - This helps AI Driven identify suspicious activity and supports incident detection and investigations.
+
+<strong>Security Awareness Training</strong> - AI Driven provides basic cybersecurity awareness training to help employees identify phishing emails, suspicious links, and social engineering attacks. This helps AI Driven employees identify suspicious emails, avoid malicious links and report phishing attempts. This also reduces credential theft.
+
+<strong>Data Encryption</strong> - AI Driven uses data encryption to protect PCI payment card data, customer information, and sensitive business data from unauthorized access and disclosure.
+
+<strong>Backup & Recovery Procedures</strong> - AI Driven maintains backup and recovery procedures to restore critical systems and recover data following ransomware attacks, system failures, or other disruptive incidents.
+
+<strong>Why This Step Was Important</strong><br>
+The objective for this step is to document all cybersecurity controls that currently exist.
 
 
 <p align="center">
  <strong>Step Seven: Conduct the Current State Cybersecurity Assessment (Baseline Assessment) </strong> <br/>
 
+I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by comparing it against the Current State Baseline. 
 
  <strong>Why This Step Was Important</strong><br>
-The objective for this step is to determine what can go wrong for this organization and why.
+The objective for this step is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state.
 
 <p align="center">
   <img src="" height="50%" width="60%" alt="SaveRecords"/>
 </p>
+
+<p align="center">
+ <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
+
+<p align="center">
+  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+ <strong>Why This Step Was Important</strong><br>
+The objective for this step is to compare the evidence from Step 8 against the NIST CSF and determine whether each control passes or fails and record comments explaining the decision.
+
+<p align="center">
+ <strong>Step Nine: Develop a Risk-Based Cybersecurity Improvement Plan </strong> <br/>
+
+<p align="center">
+  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+ <strong>Why This Step Was Important</strong><br>
+The objective for this step is to analyze every failed control and recommend practical improvements to close the gaps as well as prioritize recommendations based on business risk and PCI-DSS requirements.
+
    
 <h2>Lessons Learned:</h2>
 <ul>
