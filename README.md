@@ -212,21 +212,74 @@ I wrote out the existing controls below:
 <strong>Why This Step Was Important</strong><br>
 The objective for this step is to document all cybersecurity controls that currently exist.
 
-
 <p align="center">
  <strong>Step Seven: Conduct the Current State Cybersecurity Assessment (Baseline Assessment) </strong> <br/>
 
-I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by comparing it against the Current State Baseline. 
+This is where I changed viewpoints. From step 1 to step 6, I basically created everything I needed for this fictional company to exist. Now in step 7, the idea is:
+
+ <strong>"Pretend I was hired as a cybersecurity consultant. I interviewed executives, IT administrators, developers, HR, and other stakeholders. I reviewed documentation, asked questions, and took notes. Those notes became my Current State Assessment.”</strong>
+
+This baseline is not the future state but it represents what currently exists, what currently works, what is missing, and what is partially implemented. 
+
+
+During the assessment I evaluated:
+<ol>
+ <li><strong>Organizational Governance</strong></li>
+</ol>
+
+<p align="center">
+  <img src="https://i.imgur.com/feweEvd.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ZHg4YCQ.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/83L9RGD.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/k1LZwNW.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/Tie3qUL.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/ERhODd0.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/jwqXRAR.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/LQkc1WU.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/L7uyTLD.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/flEobhx.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
 
  <strong>Why This Step Was Important</strong><br>
 The objective for this step is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state.
 
 <p align="center">
-  <img src="" height="50%" width="60%" alt="SaveRecords"/>
-</p>
-
-<p align="center">
  <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
+
+I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by comparing it against the Current State Baseline. 
 
 <p align="center">
   <img src="" height="50%" width="60%" alt="SaveRecords"/>
