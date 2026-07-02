@@ -31,10 +31,11 @@ This repository demonstrates how I conducted a full cybersecurity program assess
 <p align="center">
   <strong>Step One: Define the Fictional Company & Business Environment</strong> <br/>
 
- I created a company called AI Driven. It is a fictional startup Financial Technology SaaS company that provides cloud-hosted payment processing services and PCI-DSS compliance requirements.  It is an AWS cloud environment and has minimal security team maturity.
+ I created a fictional company called AI Driven that is a startup Financial technology SaaS company. This fictional organizaiton provides cloud-hosted payment processing services and PCI-DSS compliance requirements.  It is an AWS cloud environment and has minimal security team maturity.
 
-  <img src="https://i.imgur.com/Uh3mIGu.png" height="60%" width="60%" alt="SaveRecords"/>
-
+<p align="center">
+  <img src="https://i.imgur.com/Uh3mIGu.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
 
  <strong>Why This Step Was Important</strong><br>
 This creates the organizational context, operational environment, business risk profile and compliance landscape. The objective is to understand the business.
@@ -61,10 +62,6 @@ The current “Users” (users interacting with the environment) in Scope for AI
  <li><strong>IT Administrators</strong> - The primary role is to manage cloud and infrastructure and systems </li>
  <li><strong>Customers</strong> - The primary role is to use payment platform services. </li>
 </ol>
-Employees - The primary role is to handle daily business operations
-Developers - The primary role is to build and maintain applications
-IT Administrators - The primary role is to manage cloud and infrastructure and systems 
-Customers - The primary role is to use payment platform services.
 
 The current “Devices (devices supporting operations)” in Scope for AI Driven are:
 
@@ -86,6 +83,65 @@ The objective for this step is to identify what is being assessed. This scope is
 
 <p align="center">
  <strong>Step Three: Identify Critical Business Assets </strong> <br/>
+
+<p align="center">
+  <img src="https://i.imgur.com/jTujD3c.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+I identified five critical business assets for AI Driven by asking myself these two question:
+<ol>
+ <li>What assets are most important to protect?</li>
+ <li>How badly would the company suffer if this system failed or got compromised?</li>
+ <li>Would it cause financial loss, downtime, compliance violations, customer impact or reputational damage?</li>
+</ol>
+
+The five <strong>“Critical Business Assets”</strong> I chose were: 
+<ol>
+ <li><strong>Payment Processing Web Application</strong> - It is responsible for processing financial transactions and supporting business revenue generation. It's a customer-facing platform. </li>
+ <li><strong>Transaction database</strong> - This stores sensitive PCI payment card data, customer information, and financial transaction records</li> 
+ <li><strong>AWS Cloud Infrastructure </strong> - This hosts cloud services, applications, databases, and supporting business operations</li>
+ <li><strong>Backup and Recovery Systems</strong> - This supports disaster recovery, ransomware recovery, and operational resilience
+<li><strong>Authentication systems</strong> - This controls user authentication, access permissions, and protection against unauthorized access</li>
+</ol>
+
+These five assets are the systems most likely to be targeted by attackers, impact business operations if compromised and trigger compliance violations as well as require the strongest security controls. 
+
+<strong>Why This Step Was Important</strong><br>
+The objective for this step is to determine what must be protected. 
+
+<p align="center">
+ <strong>Step Four: Identify Threats, Vulnerabilities, Risk Scenarios </strong> <br/>
+
+<p align="center">
+  <img src="https://i.imgur.com/GQ9zwoX.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+I gave this fictional company (AI Driven) <strong>three threats</strong>, <strong>seven vulnerabilities/existing security weaknesses</strong>. I then connected my threats and vulnerabilities together to show how they go hand in hand and this connection helped me create <strong>five risk scenarios</strong> for my five critical business assets.
+
+<strong>THREATS</strong> (Something that could potentially cause harm to company) </br>
+<ol>
+ <li><strong>Phishing Attacks</strong> - Attackers attempt to trick users into revealing credentials or downloading malicious content</li>
+  <li><strong>Cloud Based Attacks</strong> - Attackers target weaknesses within the AWS cloud environment</li>
+  <li><strong>Web Applications Attacks</strong> - Attackers exploit weaknesses within the payment processing application</li>
+</ol>
+
+<strong>VULNERABILITIES</strong> (A weakness that attackers can exploit) </br>
+<ol>
+ <li><strong>Weak MFA Adoption</strong> - Multi-factor authentication is not consistently enforced across systems. Multi-factor authentication is not fully enforced across all employee, administrative, and cloud accounts, increasing the risk of unauthorized access if credentials are compromised.</li>
+  <li><strong>Cloud Misconfiguration</strong> - Improper AWS security settings or exposed cloud resources. Misconfigured AWS cloud resources and security settings could expose sensitive systems and data to unauthorized access.</li>
+  <li><strong>Unpatched Systems</strong> - Systems and applications are not updated regularly with security patches. Some systems and applications may not receive timely security updates or patches, increasing exposure to known vulnerabilities and exploits.</li>
+  <li><strong>Limited Security Monitoring</strong> - Limited centralized monitoring and threat detection capabilities. AI Driven currently has limited centralized logging and monitoring capabilities, which may delay the detection and response to suspicious activity or security incidents.</li>
+  <li><strong>Weak Security Awareness Training</strong> - Employees receive limited cybersecurity and phishing awareness training. Employees may not receive frequent or advanced cybersecurity awareness training, increasing the likelihood of successful phishing and social engineering attacks. </li>
+ <li><strong>Insufficient Data Encryption</strong> - Sensitive data may not be consistently encrypted across all systems, databases, storage locations, or transmission channels. This could increase the risk of unauthorized disclosure of PCI payment card data and customer information if systems are compromised. </li>
+ <li><strong>Inadequate Backup and Recovery Testing</strong> - Although backup processes exist, backups may not be regularly tested or validated to ensure successful recovery during a cyber incident, ransomware attack, or system outage. This could increase recovery time and operational disruption. </li>
+</ol>
+
+<strong>THE CONNECTION BETWEEN THREATS & VULNERABILITY TOGEHTER </strong> </br>
+<p align="center">
+  <img src="https://i.imgur.com/p675uSV.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<strong>RISK SCENARIOS</strong> (Describe realistic events that could occur) </br>
    
 <h2>Lessons Learned:</h2>
 <ul>
