@@ -142,6 +142,57 @@ I gave this fictional company (AI Driven) <strong>three threats</strong>, <stron
 </p>
 
 <strong>RISK SCENARIOS</strong> (Describe realistic events that could occur) </br>
+
+<strong>Asset 1 — Payment Processing Web Application</strong> </br>
+An attacker exploits a vulnerability in the payment processing web application because security patches are not applied promptly, resulting in unauthorized access, payment fraud, or service disruption. </br>
+
+<strong>Asset 2 — Transaction Database</strong> </br>
+An attacker gains unauthorized access to the transaction database because of cloud misconfigurations, exposing PCI payment card data, customer information, and financial records.
+
+<strong>Asset 3 — AWS Cloud Infrastructure</strong> </br>
+An attacker gains access to AWS resources because cloud security settings are misconfigured, resulting in data exposure or disruption of critical business services.
+
+<strong>Asset 4 — Backup & Recovery Systems</strong> </br>
+An attacker compromises backup and recovery systems through a phishing attack because employees are not adequately trained, preventing the organization from restoring systems after a ransomware attack.
+
+<strong>Asset 5 — Authentication Systems</strong> </br>
+An attacker successfully phishes an employee and gains access to authentication systems because MFA is not fully enforced, allowing unauthorized access to employee, developer, and administrator accounts.
+
+<strong>Why This Step Was Important</strong><br>
+The objective for this step is to determine what can go wrong for this organization and why.
+
+<p align="center">
+ <strong>Step Five: Perform The Risk Assessment & Create Risk Register Table </strong> <br/>
+
+<p align="center">
+  <img src="https://i.imgur.com/gYxr9Ip.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+ <strong>Why This Step Was Important</strong><br>
+The objective for this step is to measure risk.
+
+<p align="center">
+ <strong>Step Six: Identify Existing Security Controls </strong> <br/>
+
+
+ <strong>Why This Step Was Important</strong><br>
+The objective for this step is to document all cybersecurity controls that currently exist.
+
+<p align="center">
+  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+
+<p align="center">
+ <strong>Step Seven: Conduct the Current State Cybersecurity Assessment (Baseline Assessment) </strong> <br/>
+
+
+ <strong>Why This Step Was Important</strong><br>
+The objective for this step is to determine what can go wrong for this organization and why.
+
+<p align="center">
+  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+</p>
    
 <h2>Lessons Learned:</h2>
 <ul>
