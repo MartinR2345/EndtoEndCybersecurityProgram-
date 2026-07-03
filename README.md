@@ -37,7 +37,7 @@ This repository demonstrates how I conducted a full cybersecurity program assess
   <img src="https://i.imgur.com/Uh3mIGu.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
- <strong>Why This Step Was Important</strong><br>
+ <strong>Why This Step Matters</strong><br>
 This creates the organizational context, operational environment, business risk profile and compliance landscape. The objective is to understand the business.
 
 <p align="center">
@@ -78,8 +78,8 @@ Sensitive data like:
  <li><strong>Authentication Data</strong> - Examples like passwords, MFA tokens, API keys, session tokens </li>
 </ol>
 
- <strong>Why This Step Was Important</strong><br>
-The objective for this step is to identify what is being assessed. This scope is extremely important because it establishes what systems are being protected, what data is included, what users are in scope, what assets are assessed, what controls apply and what auditors review.  Without a defined scope, risks become unclear and controls become inconsistent.
+ <strong>Why This Step Matters</strong><br>
+The objective is to identify what is being assessed. This scope is extremely important because it establishes what systems are being protected, what data is included, what users are in scope, what assets are assessed, what controls apply and what auditors review.  Without a defined scope, risks become unclear and controls become inconsistent.
 
 <p align="center">
  <strong>Step Three: Identify Critical Business Assets </strong> <br/>
@@ -106,7 +106,7 @@ The five <strong>“Critical Business Assets”</strong> I chose were:
 
 These five assets are the systems most likely to be targeted by attackers, impact business operations if compromised and trigger compliance violations as well as require the strongest security controls. 
 
-<strong>Why This Step Was Important</strong><br>
+<strong>Why This Step Matters</strong><br>
 The objective for this step is to determine what must be protected. 
 
 <p align="center">
@@ -158,7 +158,7 @@ An attacker compromises backup and recovery systems through a phishing attack be
 <strong>Asset 5 — Authentication Systems</strong> </br>
 An attacker successfully phishes an employee and gains access to authentication systems because MFA is not fully enforced, allowing unauthorized access to employee, developer, and administrator accounts.
 
-<strong>Why This Step Was Important</strong><br>
+<strong>Why This Step Matters</strong><br>
 The objective for this step is to determine what can go wrong for this organization and why.
 
 <p align="center">
@@ -176,7 +176,7 @@ I document the results in the risk register (spreadsheet) below. This spreadshee
   <img src="https://i.imgur.com/0zSZO1q.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
- <strong>Why This Step Was Important</strong><br>
+ <strong>Why This Step Matters</strong><br>
 The objective for this step is to assess risk or analyze risk by identifying, evaluating, and tracking potential threats and opportunities for this fictional organization.
 
 <p align="center">
@@ -209,7 +209,7 @@ I wrote out the existing controls below:
 
 <strong>Backup & Recovery Procedures</strong> - AI Driven maintains backup and recovery procedures to restore critical systems and recover data following ransomware attacks, system failures, or other disruptive incidents.
 
-<strong>Why This Step Was Important</strong><br>
+<strong>Why This Step Matters</strong><br>
 The objective for this step is to document all cybersecurity controls that currently exist.
 
 <p align="center">
@@ -224,7 +224,19 @@ This baseline is not the future state but it represents what currently exists, w
 
 During the assessment I evaluated:
 <ol>
- <li><strong>Organizational Governance</strong></li>
+ <li><strong>Organizational Governance</strong> - interviewed executive leadership and IT management to understand security governance, security responsibilities, business objectives and cyberr risk ownership. </li>
+  <li><strong>Asset Management</strong> - reviewd how the organization tracks hardware, software, cloud resources, critical business assets </li>
+  <li><strong>Business Continuity & Disaster Recovery</strong> - discussed with IT on backup procedures, recovery processes, disaster recovery capabilities and testing frequency </li>
+  <li><strong>Vulnerability Management</strong> - so I can reviewed vulnerability scanning, patching process, remediation workflow and vulnerability tracking. </li>
+  <li><strong>Risk Management</strong> - discussed with management on how cyber risks are identified, how risks are evaluated and how risks are reported </li>
+  <li><strong>Third-Party Risk Management</strong> - so I can reviewed cloud vendors, supplier management and vendor security reviews </li>
+  <li><strong>Identity & Access Management</strong> - so I can reviewed MFA, IAM, privileged access, user lifecycle access reviews </li>
+  <li><strong>Network & Cloud Security</strong> - so I can reviewed AWS configuration, network segmentation, cloud security controls, monitoring capabilities </li>
+ <li><strong>Data Security</strong> - so I can reviewed encryption, PCI data protection, key management and sensitive data handling </li>
+ <li><strong>Security Policies & Procedures</strong> - so I can reviewed information security policies, standards, procedures and governance documentation</li>
+ <li><strong>Security Monitoring & Detection</strong> - so I can reviewed logging, monitoring, alerting, endpoint protection, security visibility</li>
+ <li><strong>Incident Response</strong> - so I can discussed incident handling, escalation, response procedures and recovery activities</li>
+ <li><strong>Security Awareness</strong> - so I can reviewed employee training, phishing awareness, security education and onboarding</li>
 </ol>
 
 <p align="center">
@@ -273,8 +285,8 @@ During the assessment I evaluated:
   <img src="https://i.imgur.com/flEobhx.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
- <strong>Why This Step Was Important</strong><br>
-The objective for this step is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state.
+ <strong>Why This Step Matters</strong></br>
+The objective for this step is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state and use this information for Step 9.
 
 <p align="center">
  <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
