@@ -221,68 +221,33 @@ This is where I changed viewpoints. From step 1 to step 6, I basically created e
 
 This baseline is not the future state but it represents what currently exists, what currently works, what is missing, and what is partially implemented. 
 
-
-During the assessment I evaluated:
-<ol>
- <li><strong>Organizational Governance</strong> - interviewed executive leadership and IT management to understand security governance, security responsibilities, business objectives and cyberr risk ownership. </li>
-  <li><strong>Asset Management</strong> - reviewd how the organization tracks hardware, software, cloud resources, critical business assets </li>
-  <li><strong>Business Continuity & Disaster Recovery</strong> - discussed with IT on backup procedures, recovery processes, disaster recovery capabilities and testing frequency </li>
-  <li><strong>Vulnerability Management</strong> - so I can reviewed vulnerability scanning, patching process, remediation workflow and vulnerability tracking. </li>
-  <li><strong>Risk Management</strong> - discussed with management on how cyber risks are identified, how risks are evaluated and how risks are reported </li>
-  <li><strong>Third-Party Risk Management</strong> - so I can reviewed cloud vendors, supplier management and vendor security reviews </li>
-  <li><strong>Identity & Access Management</strong> - so I can reviewed MFA, IAM, privileged access, user lifecycle access reviews </li>
-  <li><strong>Network & Cloud Security</strong> - so I can reviewed AWS configuration, network segmentation, cloud security controls, monitoring capabilities </li>
- <li><strong>Data Security</strong> - so I can reviewed encryption, PCI data protection, key management and sensitive data handling </li>
- <li><strong>Security Policies & Procedures</strong> - so I can reviewed information security policies, standards, procedures and governance documentation</li>
- <li><strong>Security Monitoring & Detection</strong> - so I can reviewed logging, monitoring, alerting, endpoint protection, security visibility</li>
- <li><strong>Incident Response</strong> - so I can discussed incident handling, escalation, response procedures and recovery activities</li>
- <li><strong>Security Awareness</strong> - so I can reviewed employee training, phishing awareness, security education and onboarding</li>
-</ol>
-
 <p align="center">
-  <img src="https://i.imgur.com/feweEvd.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/A6iN4pC.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/ZHg4YCQ.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/5rMqwXr.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/83L9RGD.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/wCfuGhe.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/k1LZwNW.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/y8X1pYm.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/mqpHEv3.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
 
 <p align="center">
-  <img src="https://i.imgur.com/Tie3qUL.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/tHqW9l3.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-
 <p align="center">
-  <img src="https://i.imgur.com/ERhODd0.png" height="50%" width="60%" alt="SaveRecords"/>
-</p>
-
-
-<p align="center">
-  <img src="https://i.imgur.com/jwqXRAR.png" height="50%" width="60%" alt="SaveRecords"/>
-</p>
-
-
-<p align="center">
-  <img src="https://i.imgur.com/LQkc1WU.png" height="50%" width="60%" alt="SaveRecords"/>
-</p>
-
-
-<p align="center">
-  <img src="https://i.imgur.com/L7uyTLD.png" height="50%" width="60%" alt="SaveRecords"/>
-</p>
-
-
-<p align="center">
-  <img src="https://i.imgur.com/flEobhx.png" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/9LpUhX2.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
  <strong>Why This Step Matters</strong></br>
