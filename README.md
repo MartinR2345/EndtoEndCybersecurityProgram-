@@ -4,7 +4,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This repository demonstrates how I conducted a full cybersecurity program assessment for a fictional company called AI Driven using the the NIST Cybersecurity Framework. The goal is to transform this messy, insecure organization (AI Driven) into a structured, risk-aware cybersecurity program aligned with the NIST Cybersecurity Framework.
+This repository demonstrates how I conducted an end-to-end cybersecurity program assessment for a fictional FinTech SaaS startup called AI Driven. Acting as an external Cybersecurity/GRC Consultant, I established the organization's current cybersecurity baseline, performed a NIST Cybersecurity Framework (CSF) control assessment, identified security gaps, and developed a prioritized remediation roadmap to improve the organization's cybersecurity posture.
 <br />
 
 <h2>Framework Used</h2>
