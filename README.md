@@ -79,7 +79,7 @@ Sensitive data like:
 </ol>
 
  <strong>Why This Step Matters</strong><br>
-The objective is to identify what is being assessed. This scope is extremely important because it establishes what systems are being protected, what data is included, what users are in scope, what assets are assessed, what controls apply and what auditors review.  Without a defined scope, risks become unclear and controls become inconsistent.
+The objective of Step 2 is to identify what is being assessed. This scope is extremely important because it establishes what systems are being protected, what data is included, what users are in scope, what assets are assessed, what controls apply and what auditors review.  Without a defined scope, risks become unclear and controls become inconsistent.
 
 <p align="center">
  <strong>Step Three: Identify Critical Business Assets </strong> <br/>
@@ -107,7 +107,7 @@ The five <strong>“Critical Business Assets”</strong> I chose were:
 These five assets are the systems most likely to be targeted by attackers, impact business operations if compromised and trigger compliance violations as well as require the strongest security controls. 
 
 <strong>Why This Step Matters</strong><br>
-The objective for this step is to determine what must be protected. 
+The objective of Step 3 is to determine what must be protected. 
 
 <p align="center">
  <strong>Step Four: Identify Threats, Vulnerabilities, Risk Scenarios </strong> <br/>
@@ -159,7 +159,7 @@ An attacker compromises backup and recovery systems through a phishing attack be
 An attacker successfully phishes an employee and gains access to authentication systems because MFA is not fully enforced, allowing unauthorized access to employee, developer, and administrator accounts.
 
 <strong>Why This Step Matters</strong><br>
-The objective for this step is to determine what can go wrong for this organization and why.
+The objective of Step 4 is to determine what can go wrong for this organization and why.
 
 <p align="center">
  <strong>Step Five: Perform The Risk Assessment & Create Risk Register Table </strong> <br/>
@@ -177,7 +177,7 @@ I document the results in the risk register (spreadsheet) below. This spreadshee
 </p>
 
  <strong>Why This Step Matters</strong><br>
-The objective for this step is to assess risk or analyze risk by identifying, evaluating, and tracking potential threats and opportunities for this fictional organization.
+The objective of Step 5 is to assess risk or analyze risk by identifying, evaluating, and tracking potential threats and opportunities for this fictional organization.
 
 <p align="center">
  <strong>Step Six: Identify Existing Security Controls </strong> <br/>
@@ -210,7 +210,7 @@ I wrote out the existing controls below:
 <strong>Backup & Recovery Procedures</strong> - AI Driven maintains backup and recovery procedures to restore critical systems and recover data following ransomware attacks, system failures, or other disruptive incidents.
 
 <strong>Why This Step Matters</strong><br>
-The objective for this step is to document all cybersecurity controls that currently exist.
+The objective of Step 6 is to document all cybersecurity controls that currently exist.
 
 <p align="center">
  <strong>Step Seven: Conduct the Current State Cybersecurity Assessment (Baseline Assessment) </strong> <br/>
@@ -251,7 +251,7 @@ This baseline is not the future state but it represents what currently exists, w
 </p>
 
  <strong>Why This Step Matters</strong></br>
-The objective for this step is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state and use this information for Step 9.
+The objective of Step 7 is to gather evidence by interviewing stakeholders, reviewing policies and procedures, observing existing controls and documenting the current state and use this information for Step 8.
 
 <p align="center">
  <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
@@ -355,11 +355,11 @@ I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by c
   <img src="https://i.imgur.com/7rqv9Vr.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
- <strong>Why This Step Was Important</strong><br>
-The objective for this step is to compare the evidence from Step 8 against the NIST CSF and determine whether each control passes or fails and record comments explaining the decision.
+ <strong>Why This Step Matters</strong><br>
+The objective of Step 8 is to compare the evidence from Step 7 against the NIST CSF and determine whether each control passes or fails and record comments explaining the decision.
 
 <p align="center">
- <strong>Step Nine: Present Recommendations Based On The Assessment Findings</strong> <br/>
+ <strong>Step Nine: Develop Recommendations Based On The Assessment Findings</strong> <br/>
 
 <p align="center">
   <img src="https://i.imgur.com/8XWq2uB.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -373,8 +373,8 @@ The objective for this step is to compare the evidence from Step 8 against the N
   <img src="https://i.imgur.com/U4yaCCg.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
- <strong>Why This Step Was Important</strong><br>
-The objective for this step is to analyze every failed control and recommend practical improvements to close the gaps as well as prioritize recommendations based on business risk and PCI-DSS requirements.
+ <strong>Why This Step Matters</strong><br>
+The objective of Step 9 is to provide management a set of cybersecurity recommendations for AI Driven based on the gaps identified during the Current State Cybersecurity Baseline Assessment and the NIST CSF Control Assessment. The recommendations are intended to help AI Driven strengthen its security controls, address identified risks, improve compliance with PCI-DSS requirements, and enhance its overall cybersecurity maturity.
 
    
 <h2>Lessons Learned:</h2>
