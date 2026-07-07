@@ -359,10 +359,18 @@ I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by c
 The objective for this step is to compare the evidence from Step 8 against the NIST CSF and determine whether each control passes or fails and record comments explaining the decision.
 
 <p align="center">
- <strong>Step Nine: Develop a Risk-Based Cybersecurity Improvement Plan </strong> <br/>
+ <strong>Step Nine: Present Recommendations Based On The Assessment Findings</strong> <br/>
 
 <p align="center">
-  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/8XWq2uB.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/T8LWSr6.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/U4yaCCg.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
  <strong>Why This Step Was Important</strong><br>
