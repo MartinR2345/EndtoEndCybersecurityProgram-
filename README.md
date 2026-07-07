@@ -258,8 +258,101 @@ The objective for this step is to gather evidence by interviewing stakeholders, 
 
 I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by comparing it against the Current State Baseline. 
 
+<strong>IDENTIFY</strong>
 <p align="center">
-  <img src="" height="50%" width="60%" alt="SaveRecords"/>
+  <img src="https://i.imgur.com/I2mZAM3.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/X2tUboa.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/uRyuRCe.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/hgpTHRf.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/rgXnZjt.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<strong>PROTECT</strong>
+<p align="center">
+  <img src="https://i.imgur.com/2K9AiBE.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/V8ZkP6x.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ZY5OgKp.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/HVBDm5m.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/mC2uf3p.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/FYXrydL.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/vcOYXPt.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<strong>DETECT</strong>
+<p align="center">
+  <img src="https://i.imgur.com/XHU78Rr.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/9r3uU98.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/aHK2Qhp.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<strong>RESPOND</strong>
+<p align="center">
+  <img src="https://i.imgur.com/zfoG67h.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/FUqhroQ.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/XbqybQr.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/GbIMZWr.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/lCSa64f.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<strong>RECOVER</strong>
+<p align="center">
+  <img src="https://i.imgur.com/ZIwjrlZ.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/RJhVXQg.png" height="50%" width="60%" alt="SaveRecords"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/7rqv9Vr.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
  <strong>Why This Step Was Important</strong><br>
