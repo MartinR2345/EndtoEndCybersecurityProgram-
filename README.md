@@ -38,7 +38,7 @@ This repository demonstrates how I conducted an end-to-end cybersecurity program
 </p>
 
  <strong>Why This Step Matters</strong><br>
-This creates the organizational context, operational environment, business risk profile and compliance landscape. The objective is to understand the business.
+The objective of Step 1 creates the organizational context, operational environment, business risk profile and compliance landscape. The objective is to understand the business.
 
 <p align="center">
  <strong>Step Two: Define Systems, Users, Devices & Sensitive Data </strong> <br/>
