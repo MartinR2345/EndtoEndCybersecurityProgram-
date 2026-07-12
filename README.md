@@ -43,19 +43,20 @@ The objective of Step 1 creates the organizational context, operational environm
 <p align="center">
  <strong>Step Two: Define Systems, Users, Devices & Sensitive Data </strong> <br/>
 
-The current “Systems” (within scope) for AI Driven are:
+I identified the “Systems” (within scope - that support the business). This included:
 <ol>
  <li><strong>AWS cloud infrastructure</strong> - This connects to web application, database, backups and hosts the fintech platform and cloud services </li>
  <li><strong>Payment Processing Web Application</strong> - This connects to customers, APIs, databases and basically customer-facing payment portal </li>
  <li><strong>Transaction Database</strong> - This stores PCI payment data and transaction history </li>
  <li><strong>Employee Endpoint Devices</strong> - This is used by employees, administrators and developers for daily operations</li>
- <li><strong>Email & Collaboration Systems </strong> - This is for internal communication and business operations</li>
- <li><strong>Backup & Recovery Systems</strong> - This supports disaster recovery and business continuity.</li>
+ <li><strong>Authentication systems</strong> - a digital bouncer. It verifies your identity—proving you are who you claim to be—before granting you access to an app, website, or device/li>
+ <li><strong>Email</strong> - This is for internal communication and business operations</li>
+ <li><strong>Backup Systems</strong> - This supports disaster recovery and business continuity.</li>
 </ol>
 
 I chose these systems because all these systems allow AI Driven to process payments, store transaction data, support customers, communicate internally and maintain business operations. This is everything the company uses to run its business operations.
 
-The current “Users” (users interacting with the environment) in Scope for AI Driven are:
+I also identified the “Users" of the environment: 
 <ol>
  <li><strong>Employees</strong> - The primary role is to handle daily business operations. </li>
  <li><strong>Developers</strong> - The primary role is to build and maintain applications. </li>
@@ -63,7 +64,7 @@ The current “Users” (users interacting with the environment) in Scope for AI
  <li><strong>Customers</strong> - The primary role is to use payment platform services. </li>
 </ol>
 
-The current “Devices (devices supporting operations)” in Scope for AI Driven are:
+I identified the “Devices" (devices supporting operations):
 
 <ol>
  <li><strong>Employee Laptops</strong> - This connects employees to email systems, cloud environments, internal applications and payment systems. Devices like windows laptops, macbooks.  </li>
@@ -88,26 +89,25 @@ The objective of Step 2 is to identify what is being assessed. This scope is ext
   <img src="https://i.imgur.com/jTujD3c.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-I identified five critical business assets for AI Driven by asking myself these two question:
+Once I understood the environment, I asked myself these two question:
 <ol>
  <li>What assets are most important to protect?</li>
- <li>How badly would the company suffer if this system failed or got compromised?</li>
- <li>Would it cause financial loss, downtime, compliance violations, customer impact or reputational damage?</li>
+ <li>How badly would the company suffer if this system failed or got compromised? Would it cause financial loss, downtime, compliance violations, customer impact or reputational damage?</li>
 </ol>
 
 The five <strong>“Critical Business Assets”</strong> I chose were: 
 <ol>
- <li><strong>Payment Processing Web Application</strong> - It is responsible for processing financial transactions and supporting business revenue generation. It's a customer-facing platform. </li>
- <li><strong>Transaction database</strong> - This stores sensitive PCI payment card data, customer information, and financial transaction records</li> 
- <li><strong>AWS Cloud Infrastructure </strong> - This hosts cloud services, applications, databases, and supporting business operations</li>
- <li><strong>Backup and Recovery Systems</strong> - This supports disaster recovery, ransomware recovery, and operational resilience
-<li><strong>Authentication systems</strong> - This controls user authentication, access permissions, and protection against unauthorized access</li>
+ <li><strong>Payment Processing Web Application</strong></li>
+ <li><strong>Transaction database</strong></li> 
+ <li><strong>AWS Cloud Infrastructure </strong></li>
+ <li><strong>Authentication systems</strong></li>
+ <li><strong>Backup and Recovery Systems</strong></li>
 </ol>
 
-These five assets are the systems most likely to be targeted by attackers, impact business operations if compromised and trigger compliance violations as well as require the strongest security controls. 
+These assets became the primary focus of the risk assessment.
 
 <strong>Why This Step Matters</strong><br>
-The objective of Step 3 is to determine what must be protected. 
+The objective of Step 3 is to determine what must be protected. These five assets are the systems most likely to be targeted by attackers, impact business operations if compromised and trigger compliance violations as well as require the strongest security controls. 
 
 <p align="center">
  <strong>Step Four: Identify Threats, Vulnerabilities, Risk Scenarios </strong> <br/>
@@ -116,26 +116,25 @@ The objective of Step 3 is to determine what must be protected.
   <img src="https://i.imgur.com/GQ9zwoX.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-I gave this fictional company (AI Driven) <strong>three threats</strong>, <strong>seven vulnerabilities/existing security weaknesses</strong>. I then connected my threats and vulnerabilities together to show how they go hand in hand and this connection helped me create <strong>five risk scenarios</strong> for my five critical business assets.
+I identified the major cybersecurity <strong>threats</strong> (Something that could potentially cause harm to company) facing the organizaiton. </br>
 
-<strong>THREATS</strong> (Something that could potentially cause harm to company) </br>
+Examples included:
 <ol>
  <li><strong>Phishing Attacks</strong> - Attackers attempt to trick users into revealing credentials or downloading malicious content</li>
-  <li><strong>Cloud Based Attacks</strong> - Attackers target weaknesses within the AWS cloud environment</li>
+  <li><strong>Cloud Attacks</strong> - Attackers target weaknesses within the AWS cloud environment</li>
   <li><strong>Web Applications Attacks</strong> - Attackers exploit weaknesses within the payment processing application</li>
 </ol>
 
-<strong>VULNERABILITIES</strong> (A weakness that attackers can exploit) </br>
+I also identified <strong>vulnerabilities</strong> (A weakness that attackers can exploit) such as:  </br>
 <ol>
  <li><strong>Weak MFA Adoption</strong> - Multi-factor authentication is not consistently enforced across systems. Multi-factor authentication is not fully enforced across all employee, administrative, and cloud accounts, increasing the risk of unauthorized access if credentials are compromised.</li>
-  <li><strong>Cloud Misconfiguration</strong> - Improper AWS security settings or exposed cloud resources. Misconfigured AWS cloud resources and security settings could expose sensitive systems and data to unauthorized access.</li>
-  <li><strong>Unpatched Systems</strong> - Systems and applications are not updated regularly with security patches. Some systems and applications may not receive timely security updates or patches, increasing exposure to known vulnerabilities and exploits.</li>
+  <li><strong>Cloud Misconfigurations</strong> - Improper AWS security settings or exposed cloud resources. Misconfigured AWS cloud resources and security settings could expose sensitive systems and data to unauthorized access.</li>
   <li><strong>Limited Security Monitoring</strong> - Limited centralized monitoring and threat detection capabilities. AI Driven currently has limited centralized logging and monitoring capabilities, which may delay the detection and response to suspicious activity or security incidents.</li>
+  <li><strong>Unpatched Systems</strong> - Systems and applications are not updated regularly with security patches. Some systems and applications may not receive timely security updates or patches, increasing exposure to known vulnerabilities and exploits.</li>
   <li><strong>Weak Security Awareness Training</strong> - Employees receive limited cybersecurity and phishing awareness training. Employees may not receive frequent or advanced cybersecurity awareness training, increasing the likelihood of successful phishing and social engineering attacks. </li>
- <li><strong>Insufficient Data Encryption</strong> - Sensitive data may not be consistently encrypted across all systems, databases, storage locations, or transmission channels. This could increase the risk of unauthorized disclosure of PCI payment card data and customer information if systems are compromised. </li>
- <li><strong>Inadequate Backup and Recovery Testing</strong> - Although backup processes exist, backups may not be regularly tested or validated to ensure successful recovery during a cyber incident, ransomware attack, or system outage. This could increase recovery time and operational disruption. </li>
 </ol>
 
+I then combined the threats and vulnerabilities into realistic risk scenarios that described how an attacker could exploit these weaknessess below: </br>
 <strong>THE CONNECTION BETWEEN THREATS & VULNERABILITY TOGEHTER </strong> </br>
 <p align="center">
   <img src="https://i.imgur.com/p675uSV.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -168,9 +167,9 @@ The objective of Step 4 is to determine what can go wrong for this organization 
   <img src="https://i.imgur.com/gYxr9Ip.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-I performed a risk assessment that measures risk using likelihood and impact scores to determine how severe a risk is depending on where the risk score lands on the rating scale. This allows me to evaluate how serious the identified cybersecurity risks are and how much damage it could cause to this fintech payment-processing environment. </br>
+After identifying the risks, I assessed each one by evaluating it's likelihood and business impact to determine how severe the risk is depending on where the risk score lands on the rating scale. </br>
 
-I document the results in the risk register (spreadsheet) below. This spreadsheet highlights the assessed risks, threats, vulnerabilities, risk scenarios, likelihood, impact score, the overall risk score and risk level. 
+I then documented these risks in a risk register (this spreadsheet) and assigned risk ratings to help prioritize which issues required the most immediate attention. This helped demonstrate a risk-based approach to cybersecurity rather than treating every issue as equally important.
 
 <p align="center">
   <img src="https://i.imgur.com/0zSZO1q.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -182,32 +181,25 @@ The objective of Step 5 is to assess risk or analyze risk by identifying, evalua
 <p align="center">
  <strong>Step Six: Identify Existing Security Controls </strong> <br/>
 
-I identify the existing security controls to highlight the current safeguards already protecting the environment.
-The question I asked myself: </br>
-
-“What is AI Driven currently doing to reduce those vulnerabilities?”</br>
+I identified the security controls that were already in place 
 
 The first thing I did was review my vulnerabilities from Step 4 and give it context/meaning in the spreadsheet below: 
 <p align="center">
   <img src="https://i.imgur.com/3hXTLgl.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-I wrote out the existing controls below:
+AI Driven had implemented several underlying controls, including:
 
 <strong>Existing Controls</strong>
-<strong>MFA (partial adoption)</strong> - AI Driven currently uses multi-factor authentication on some employee and administrative accounts to provide an additional layer of login security and reduce unauthorized access risks.. This helps AI Driven add an extra layer of login security to reduce unauthorized access if passwords are stolen. This greatly reduces account compromise and unauthorized access.
-
-<strong>AWS IAM </strong> - AI Driven uses AWS IAM to manage user permissions and restrict access to cloud systems and sensitive resources based on user roles. This helps AI Driven control user permissions and limit access to AWS systems and sensitive cloud resources based on user roles and responsibilities. 
-
-<strong>Endpoint protection or Antivirus</strong> - AI Driven currently performs basic logging and monitoring activities to help identify suspicious system activity and support incident investigations. This helps AI Driven detect and block malware, ransomware and malicious files on employee laptops
-
-<strong>Basic logging & Monitoring</strong> - This helps AI Driven identify suspicious activity and supports incident detection and investigations.
-
-<strong>Security Awareness Training</strong> - AI Driven provides basic cybersecurity awareness training to help employees identify phishing emails, suspicious links, and social engineering attacks. This helps AI Driven employees identify suspicious emails, avoid malicious links and report phishing attempts. This also reduces credential theft.
-
-<strong>Data Encryption</strong> - AI Driven uses data encryption to protect PCI payment card data, customer information, and sensitive business data from unauthorized access and disclosure.
-
-<strong>Backup & Recovery Procedures</strong> - AI Driven maintains backup and recovery procedures to restore critical systems and recover data following ransomware attacks, system failures, or other disruptive incidents.
+<ol>
+ <li><strong>AWS IAM </strong> - AI Driven uses AWS IAM to manage user permissions and restrict access to cloud systems and sensitive resources based on user roles. This helps AI Driven control user permissions and limit access to AWS systems and sensitive cloud resources based on user roles and responsibilities. </li>
+ <li><strong>Partial Multi-Factor Authentication</strong> - AI Driven currently uses multi-factor authentication on some employee and administrative accounts to provide an additional layer of login security and reduce unauthorized access risks.. This helps AI Driven add an extra layer of login security to reduce unauthorized access if passwords are stolen. This greatly reduces account compromise and unauthorized access.</li>
+ <li><strong>Endpoint protection</strong> - AI Driven currently performs basic logging and monitoring activities to help identify suspicious system activity and support incident investigations. This helps AI Driven detect and block malware, ransomware and malicious files on employee laptops</li>
+ <li><strong>Basic logging & Monitoring</strong> - This helps AI Driven identify suspicious activity and supports incident detection and investigations.</li>
+ <li><strong>Data Encryption</strong> - AI Driven uses data encryption to protect PCI payment card data, customer information, and sensitive business data from unauthorized access and disclosure.</li>
+ <li><strong>Backup & Recovery Procedures</strong> - AI Driven maintains backup and recovery procedures to restore critical systems and recover data following ransomware attacks, system failures, or other disruptive incidents.</li>
+ <li><strong>Security Awareness Training</strong> - AI Driven provides basic cybersecurity awareness training to help employees identify phishing emails, suspicious links, and social engineering attacks. This helps AI Driven employees identify suspicious emails, avoid malicious links and report phishing attempts. This also reduces credential theft.</li>
+</ol>
 
 <strong>Why This Step Matters</strong><br>
 The objective of Step 6 is to document all cybersecurity controls that currently exist.
@@ -215,11 +207,10 @@ The objective of Step 6 is to document all cybersecurity controls that currently
 <p align="center">
  <strong>Step Seven: Conduct the Current State Cybersecurity Assessment (Baseline Assessment) </strong> <br/>
 
-This is where I changed viewpoints. From step 1 to step 6, I basically created everything I needed for this fictional company to exist. Now in step 7, the idea is:
+I assumed the role of an external Cybersecurity Consultant hired by AI Driven.
+I conducted interviews with key stakeholders, including executive leadership, the IT Manager, Cloud Administrator, HR, and other personnel.  I also reveiwed available documentation and documented my observations about the organizations's current cybersecurity environment. 
 
- <strong>"Pretend I was hired as a cybersecurity consultant. I interviewed executives, IT administrators, developers, HR, and other stakeholders. I reviewed documentation, asked questions, and took notes. Those notes became my Current State Assessment.”</strong>
-
-This baseline is not the future state but it represents what currently exists, what currently works, what is missing, and what is partially implemented. 
+This baseline represents what currently exists, what currently works, what is missing, and what is partially implemented. These observations became the evidence used during the next step.
 
 <p align="center">
   <img src="https://i.imgur.com/A6iN4pC.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -256,7 +247,8 @@ The objective of Step 7 is to gather evidence by interviewing stakeholders, revi
 <p align="center">
  <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
 
-I perform the NIST CSF Control Assessment to evaluate each NIST CSF control by comparing it against the Current State Baseline. 
+Using the baseline assessment from Step 7, I evaluated AI Driven against the NIST Cybersecurity framework. </br>
+For each control, I determined whether the organization passed or failed based on the evidence collected during Step 7. This helped me identfiy control gaps across governance, identity management, monitoring, incident response, disaster recovery, and many other security domains.
 
 <strong>IDENTIFY</strong>
 <p align="center">
@@ -360,7 +352,7 @@ The objective of Step 8 is to compare the evidence from Step 7 against the NIST 
 
 <p align="center">
  <strong>Step Nine: Develop Recommendations Based On The Assessment Findings</strong> <br/>
-
+Finally, I developed a prioritized set of recommendations for AI Driven. <br/>
 <p align="center">
   <img src="https://i.imgur.com/8XWq2uB.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
