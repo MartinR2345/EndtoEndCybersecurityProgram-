@@ -365,14 +365,6 @@ Finally, I developed a prioritized set of recommendations for AI Driven. <br/>
  <strong>Why This Step Matters</strong><br>
 The objective of Step 9 is to provide management a set of cybersecurity recommendations for AI Driven based on the gaps identified during the Current State Cybersecurity Baseline Assessment and the NIST CSF Control Assessment. The recommendations are intended to help AI Driven strengthen its security controls, address identified risks, improve compliance with PCI-DSS requirements, and enhance its overall cybersecurity maturity.
 
-   
-<h2>Lessons Learned:</h2>
-<ul>
- <li>Understanding how compliance frameworks are structured</li>
- <li>Learning how to map controls to business processes</li>
- <li>Identifying gaps and building remediation plans</li>
- <li>Documenting compliance maturity in a clear, structured format</li>
-</ul>
 
 <!--
  ```diff
