@@ -89,13 +89,9 @@ The objective of Step 2 is to identify what is being assessed. This scope is ext
   <img src="https://i.imgur.com/jTujD3c.png" height="50%" width="60%" alt="SaveRecords"/>
 </p>
 
-Once I understood the environment, I asked myself these two question:
-<ol>
- <li>What assets are most important to protect?</li>
- <li>How badly would the company suffer if this system failed or got compromised? Would it cause financial loss, downtime, compliance violations, customer impact or reputational damage?</li>
-</ol>
+Once I understood the environment, I identified the organization's most critical assets. <br/>
 
-The five <strong>“Critical Business Assets”</strong> I chose were: 
+These included: 
 <ol>
  <li><strong>Payment Processing Web Application</strong></li>
  <li><strong>Transaction database</strong></li> 
@@ -134,7 +130,8 @@ I also identified <strong>vulnerabilities</strong> (A weakness that attackers ca
   <li><strong>Weak Security Awareness Training</strong> - Employees receive limited cybersecurity and phishing awareness training. Employees may not receive frequent or advanced cybersecurity awareness training, increasing the likelihood of successful phishing and social engineering attacks. </li>
 </ol>
 
-I then combined the threats and vulnerabilities into realistic risk scenarios that described how an attacker could exploit these weaknessess below: </br>
+I then combined the threats and vulnerabilities into realistic risk scenarios that described how an attacker could exploit these weaknessess below: <br/>
+
 <strong>THE CONNECTION BETWEEN THREATS & VULNERABILITY TOGEHTER </strong> </br>
 <p align="center">
   <img src="https://i.imgur.com/p675uSV.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -210,7 +207,7 @@ The objective of Step 6 is to document all cybersecurity controls that currently
 I assumed the role of an external Cybersecurity Consultant hired by AI Driven.
 I conducted interviews with key stakeholders, including executive leadership, the IT Manager, Cloud Administrator, HR, and other personnel.  I also reveiwed available documentation and documented my observations about the organizations's current cybersecurity environment. 
 
-This baseline represents what currently exists, what currently works, what is missing, and what is partially implemented. These observations became the evidence used during the next step.
+This baseline represents what currently exists, what currently works, what is missing, and what is partially implemented. These observations became the evidence used for the next step.
 
 <p align="center">
   <img src="https://i.imgur.com/A6iN4pC.png" height="50%" width="60%" alt="SaveRecords"/>
@@ -248,7 +245,7 @@ The objective of Step 7 is to gather evidence by interviewing stakeholders, revi
  <strong>Step Eight: Perform the NIST CSF Control Assessment (PASS / FAIL) </strong> <br/>
 
 Using the baseline assessment from Step 7, I evaluated AI Driven against the NIST Cybersecurity framework. </br>
-For each control, I determined whether the organization passed or failed based on the evidence collected during Step 7. This helped me identfiy control gaps across governance, identity management, monitoring, incident response, disaster recovery, and many other security domains.
+For each control, I determined whether the organization passed or failed based on the evidence collected in Step 7. This helped me identfiy control gaps across governance, identity management, monitoring, incident response, disaster recovery, and many other security domains.
 
 <strong>IDENTIFY</strong>
 <p align="center">
