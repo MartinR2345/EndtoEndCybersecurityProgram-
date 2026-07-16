@@ -1,7 +1,7 @@
 <h1>End-To-End Cybersecurity Program</h1>
 
 <h2>Video Demonstration</h2>
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+https://martinreece.my.canva.site/grc-portfolio-projects-
 
 <h2>Description</h2>
 This repository demonstrates how I conducted an end-to-end cybersecurity program assessment for a fictional FinTech SaaS startup called AI Driven. Acting as an external Cybersecurity/GRC Consultant, I established the organization's current cybersecurity baseline, performed a NIST Cybersecurity Framework (CSF) control assessment, identified security gaps, and developed a prioritized remediation roadmap to improve the organization's cybersecurity posture.
